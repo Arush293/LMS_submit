@@ -1,0 +1,175 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f9fafb; /* Tailwind's bg-gray-100 */
+    padding: 0 24px; /* You can use padding utility in Tailwind */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header {
+    background-color: #3b82f6; /* Blue color */
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  header .container {
+    max-width: 1200px; /* Limit the width for large screens */
+    margin: 0 auto; /* Center the content */
+    padding: 1rem; /* Add padding */
+    display: flex; /* Flex layout for alignment */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header nav ul li {
+    margin-right: 1.5rem;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  header nav a:hover {
+    color: #05f2c3; /* Lighter blue on hover */
+  }
+  
+  footer {
+    background-color: #3b82f6; /* Same blue as header */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+  }
+  
+  footer .container {
+    max-width: 1200px; /* Same max width as header */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+  }
+  
+  footer ul li {
+    margin: 0 1rem;
+  }
+  
+  footer ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer ul li a:hover {
+    color: #05f2c3; /* Lighter blue on hover */
+  }
+  
+  /* Other styles can remain as is */
+  
+  .App {
+    color: #72a24d; /* This can be replaced with text-green-500 in your components */
+  }
+  
+  h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Retain your font styles */
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Tailwind's shadow-lg */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="file"] {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #d1d5db; /* Tailwind's border-gray-300 */
+    border-radius: 4px; /* Can be replaced with rounded */
+    margin-bottom: 16px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #3b82f6; /* Tailwind's border-blue-500 */
+  }
+  
+  button {
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px; /* Can be replaced with rounded */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.bg-blue-500 {
+    background-color: #3b82f6; /* Use Tailwind class instead */
+  }
+  
+  button.bg-blue-500:hover {
+    background-color: #05f2c3; /* Use Tailwind class instead */
+  }
+  
+  button.bg-red-600 {
+    background-color: #dc2626; /* Use Tailwind class instead */
+  }
+  
+  button.bg-red-600:hover {
+    background-color: #b91c1c; /* Use Tailwind class instead */
+  }
+  
+  .text-green-500 {
+    color: #22c55e; /* Use Tailwind class instead */
+  }
+  
+  .text-red-500 {
+    color: #ef4444; /* Use Tailwind class instead */
+  }
+  
+  .progress-container {
+    height: 10px;
+    background-color: #e5e7eb; /* Tailwind's bg-gray-300 */
+    border-radius: 5px; /* Can be replaced with rounded */
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #3b82f6; /* Use Tailwind class instead */
+    transition: width 0.4s ease;
+  }
+  
